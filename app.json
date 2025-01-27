@@ -1,7 +1,9 @@
 {
+
+  
   "expo": {
-    "name": "Instagram",
-    "slug": "Instagram",
+    "name": "M^2",
+    "slug": "liberation",
     "scheme": "notJustIg",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,42 +11,40 @@
     "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash.png",
-      "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff",
+       "jsEngine": "jsc"
     },
     "ios": {
       "supportsTablet": true
     },
     "android": {
+      "jsEngine": "jsc",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-        "android.permission.RECORD_AUDIO"
-      ]
+        
+      
+      ],
+      "package": "com.mikdaaad.Liberation"
     },
     "web": {
       "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
     "plugins": [
-      "expo-router",
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "The app accesses your photos to let you share them with your friends."
-        }
-      ]
+      "expo-router"
     ],
     "extra": {
       "router": {
         "origin": false
       },
       "eas": {
-        "projectId": "f437e516-e636-46d3-a15b-5cd382ca3f7e"
+        "projectId": "fc57272c-2a72-4fa5-b9da-8db5b5b7295e"
       }
     },
-    "owner": "vadinsavin"
+    "owner": "mikdaaadliberation"
   }
 }
